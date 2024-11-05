@@ -29,7 +29,7 @@ El dataset contiene datos de patrones de sueño, hábitos de estudio, uso de pan
 ### Entendimiento del Negocio
 En esta fase, se definen los objetivos del proyecto, los problemas que se pretenden resolver, y los criterios de éxito. 
 
-- Documento de la Fase: <a href="https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit" target="_blank">Entendimiento del Negocio</a>
+- Documento de la Fase: [Entendimiento del Negocio](https://classroom.google.com/u/0/c/NzAzNjQ1NjI1NzEw/a/NzI4NzY5MTQyNTc2/details)
 
 ### Comprensión de los Datos
 Exploración inicial de los datos para entender su estructura, tipos de variables y calidad, además de aplicar técnicas estadísticas para el análisis exploratorio.
