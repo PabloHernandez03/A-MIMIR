@@ -18,7 +18,7 @@
 ---
 
 ## Dataset
-- URL del Dataset: [Enlace al Dataset]([URL_DEL_DATASET](https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit))
+- URL del Dataset: [Enlace al Dataset](https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit)
 
 El dataset contiene datos sintéticos de patrones de sueño, hábitos de estudio, uso de pantallas, consumo de cafeína y actividad física de estudiantes universitarios.
 
