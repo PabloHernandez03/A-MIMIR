@@ -18,9 +18,9 @@
 ---
 
 ## Dataset
-- URL del Dataset: [Enlace al Dataset](https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit)
+- URL del Dataset: [Enlace al Dataset](https://www.kaggle.com/datasets/arsalanjamal002/student-sleep-patterns)
 
-El dataset contiene datos sintéticos de patrones de sueño, hábitos de estudio, uso de pantallas, consumo de cafeína y actividad física de estudiantes universitarios.
+El dataset contiene datos de patrones de sueño, hábitos de estudio, uso de pantallas, consumo de cafeína y actividad física de estudiantes universitarios.
 
 ---
 
@@ -29,7 +29,7 @@ El dataset contiene datos sintéticos de patrones de sueño, hábitos de estudio
 ### Entendimiento del Negocio
 En esta fase, se definen los objetivos del proyecto, los problemas que se pretenden resolver, y los criterios de éxito. 
 
-- Documento de la Fase: [Entendimiento del Negocio](URL_DOCUMENTO_ENTENDIMIENTO_NEGOCIO)
+- Documento de la Fase: <a href="https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit" target="_blank">Entendimiento del Negocio</a>
 
 ### Comprensión de los Datos
 Exploración inicial de los datos para entender su estructura, tipos de variables y calidad, además de aplicar técnicas estadísticas para el análisis exploratorio.
