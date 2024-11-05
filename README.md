@@ -7,13 +7,6 @@
 - [Dataset](#dataset)
 - [Fases del Proyecto](#fases-del-proyecto)
   - [Entendimiento del Negocio](#entendimiento-del-negocio)
-  - [Comprensión de los Datos](#comprensión-de-los-datos)
-  - [Preparación de los Datos](#preparación-de-los-datos)
-  - [Modelado](#modelado)
-  - [Evaluación](#evaluación)
-  - [Implementación](#implementación)
-- [Resultados](#resultados)
-- [Referencias](#referencias)
 
 ---
 
@@ -30,41 +23,6 @@ El dataset contiene datos de patrones de sueño, hábitos de estudio, uso de pan
 En esta fase, se definen los objetivos del proyecto, los problemas que se pretenden resolver, y los criterios de éxito. 
 
 - Documento de la Fase: [Entendimiento del Negocio](https://classroom.google.com/u/0/c/NzAzNjQ1NjI1NzEw/a/NzI4NzY5MTQyNTc2/details)
-
-### Comprensión de los Datos
-Exploración inicial de los datos para entender su estructura, tipos de variables y calidad, además de aplicar técnicas estadísticas para el análisis exploratorio.
-
-- Documento de la Fase: [Comprensión de los Datos](URL_DOCUMENTO_COMPRENSION_DATOS)
-
-### Preparación de los Datos
-En esta fase se limpian y transforman los datos, y se seleccionan las variables adecuadas para el análisis. 
-
-- Documento de la Fase: [Preparación de los Datos](URL_DOCUMENTO_PREPARACION_DATOS)
-
-### Modelado
-Construcción de modelos predictivos y de asociación, empleando técnicas de regresión, clasificación y análisis de asociación.
-
-- Documento de la Fase: [Modelado](URL_DOCUMENTO_MODELADO)
-
-### Evaluación
-Evaluación de los modelos en base a métricas como precisión, recall, y F1 para la clasificación, y R² para la regresión, así como revisión de los resultados obtenidos en asociación.
-
-- Documento de la Fase: [Evaluación](URL_DOCUMENTO_EVALUACION)
-
-### Implementación
-En esta fase se describe cómo se aplicarían los modelos en un entorno real y las recomendaciones prácticas derivadas del análisis.
-
-- Documento de la Fase: [Implementación](URL_DOCUMENTO_IMPLEMENTACION)
-
----
-
-## Resultados
-Resumen de los resultados obtenidos en cada fase y conclusiones del proyecto, incluyendo hallazgos clave sobre los factores que influyen en los patrones de sueño de los estudiantes universitarios.
-
----
-
-## Referencias
-Lista de recursos, artículos y bibliografía utilizada en el desarrollo del proyecto.
 
 ---
 
