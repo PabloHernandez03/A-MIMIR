@@ -1,7 +1,7 @@
 # A-MIMIR: Análisis de Patrones de Sueño en Estudiantes Universitarios
 
 ## Descripción
-**A-MIMIR** es un proyecto enfocado en el análisis de patrones de sueño en estudiantes universitarios utilizando técnicas de regresión, clasificación y asociación. El objetivo es identificar cómo factores como el tiempo de estudio, tiempo en pantalla, actividad física, y consumo de cafeína afectan la calidad y duración del sueño.
+**A-MIMIR** se centra en contribuir a mejorar la calidad de vida de los estudiantes a través de recomendaciones prácticas.
 
 ## Tabla de Contenidos
 - [Dataset](#dataset)
@@ -18,7 +18,7 @@
 ---
 
 ## Dataset
-- URL del Dataset: [Enlace al Dataset](URL_DEL_DATASET)
+- URL del Dataset: [Enlace al Dataset]([URL_DEL_DATASET](https://docs.google.com/document/d/1D9g8aypBksZ_PM5z79CFR6ppHbDKSGIl/edit))
 
 El dataset contiene datos sintéticos de patrones de sueño, hábitos de estudio, uso de pantallas, consumo de cafeína y actividad física de estudiantes universitarios.
 
