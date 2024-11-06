@@ -7,6 +7,7 @@
 - [Dataset](#dataset)
 - [Fases del Proyecto](#fases-del-proyecto)
   - [Entendimiento del Negocio](#entendimiento-del-negocio)
+  - [Entendimiento de los Datos](#entendimiento-de-los-datos)
 
 ---
 
@@ -26,3 +27,7 @@ En esta fase, se definen los objetivos del proyecto, los problemas que se preten
 
 ---
 
+### Entendimiento de los Datos
+En esta fase, se definen cuales son nuestros datos iniciales, recolección y descripción de los mismo, además de aplicar estadística para analizarlos.
+
+- Documento de la Fase: [Entendimiento de los Datos](https://docs.google.com/document/d/1vBOmM5oTPuHS6mkcw5EMS5Nu7nz7g2xk0-lUh6wZjlQ/edit?tab=t.0)
