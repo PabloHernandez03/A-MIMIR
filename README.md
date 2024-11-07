@@ -1,4 +1,9 @@
 # A-MIMIR: Análisis de Patrones de Sueño en Estudiantes Universitarios
+# Integrantes
+- Aldrete Martinez Kevin Alejandro
+- Gallegos Madera Luis Manuel
+- Hernandez Gomez Pablo Alejandro
+- Hernandez Rodriguez Jose Luis
 
 ## Descripción
 **A-MIMIR** se centra en contribuir a mejorar la calidad de vida de los estudiantes a través de recomendaciones prácticas.
