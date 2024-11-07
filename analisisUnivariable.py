@@ -9,13 +9,14 @@ dominiosObject={
     'University_Year':['1st Year','2nd Year','3rd Year','4th Year']
 }
 for column in dataFrame.iloc[:, 1:]:
-    print(f'Nombre de atributo: {column}')
+    print(f'\n\nNombre de atributo: {column}')
     print(f'Tipo de atributo: {dataFrame[column].dtype}')
-    print(dataFrame[column].describe())
-    print()
+    
    
     fig = plt.figure()
     if dataFrame[column].dtype == object:
+        print(dataFrame[column].value_counts())
+        print()
         outliers_column = dataFrame[~dataFrame[column].isin(dominiosObject[column])]
         if len(outliers_column) != 0:
             print(f'Valores atípicos en {column}')
@@ -30,6 +31,8 @@ for column in dataFrame.iloc[:, 1:]:
         plt.show()
     else:
         sesgo = dataFrame[column].skew()
+        print(dataFrame[column].describe())
+        print()
         print(f'Sesgo de la columna {column}: {sesgo}')
         Q1 = dataFrame[column].quantile(0.25)
         Q3 = dataFrame[column].quantile(0.75)
