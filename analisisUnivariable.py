@@ -26,6 +26,7 @@ for column in dataFrame.iloc[:, 1:]:
         frecuencias = dataFrame[column].value_counts()
         frecuencias.plot(kind='barh',figsize=(10,10))
         plt.title('Columna: '+column)
+        plt.savefig(f'GRAFICAS-UNI/{column}.jpg')
         plt.show()
     else:
         sesgo = dataFrame[column].skew()
@@ -44,4 +45,5 @@ for column in dataFrame.iloc[:, 1:]:
         fig.canvas.manager.set_window_title("Grafica de caja de columna: "+str(column))
         dataFrame[column].plot(kind='box',figsize=(10,10))
         plt.title('Columna: '+column)
+        plt.savefig(f'GRAFICAS-UNI/{column}.jpg')
         plt.show()
