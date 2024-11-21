@@ -58,10 +58,10 @@ def screenTime(x):
         return '(2-inf)'
     
 def intake(x):
-    if x >=0 and x<=2.5:
-        return '[0-2.5]'
-    elif x >2.5 :
-        return '(2.5-inf)'
+    if x >=0 and x<=2:
+        return '[0-2]'
+    elif x >2 :
+        return '(2-inf)'
 
 def phisicalActivity(x):
     if x >=0 and x<=30:
@@ -79,5 +79,42 @@ dataFrame['Sleep_Duration'] = dataFrame['Sleep_Duration'].apply(sleepDuration)
 dataFrame['Screen_Time'] = dataFrame['Screen_Time'].apply(screenTime)
 dataFrame['Caffeine_Intake'] = dataFrame['Caffeine_Intake'].apply(intake)
 dataFrame['Physical_Activity'] = dataFrame['Physical_Activity'].apply(phisicalActivity)
+
+dataFrame['Age:18-19']=dataFrame['Age'] == '18-19'
+dataFrame['Age:20-21']=dataFrame['Age'] == '20-21'
+dataFrame['Age:22-23']=dataFrame['Age'] == '22-23'
+dataFrame['Age:24-25']=dataFrame['Age'] == '24-25'
+
+dataFrame['Sleep_Quality:Bajo']=dataFrame['Sleep_Quality'] == 'Bajo'
+dataFrame['Sleep_Quality:Regular']=dataFrame['Sleep_Quality'] == 'Regular'
+dataFrame['Sleep_Quality:Bueno']=dataFrame['Sleep_Quality'] == 'Bueno'
+
+dataFrame['Study_Hours:[0-4]'] = dataFrame['Study_Hours'] == '[0-4]'
+dataFrame['Study_Hours:(4-8]'] = dataFrame['Study_Hours'] == '(4-8]'
+dataFrame['Study_Hours:(8-inf)'] = dataFrame['Study_Hours'] == '(8-inf)'
+
+dataFrame['Sleep_Duration:[0-3]'] = dataFrame['Sleep_Duration'] == '[0-3]'
+dataFrame['Sleep_Duration:(3-6]'] = dataFrame['Sleep_Duration'] == '(3-6]'
+dataFrame['Sleep_Duration:(6-inf)'] = dataFrame['Sleep_Duration'] == '(6-inf)'
+
+dataFrame['Screen_Time:[0-2]'] = dataFrame['Screen_Time'] == '[0-2]'
+dataFrame['Screen_Time:(2-inf)'] = dataFrame['Screen_Time'] == '(2-inf)'
+
+dataFrame['Caffeine_Intake:[0-2]'] = dataFrame['Caffeine_Intake'] == '[0-2]'
+dataFrame['Caffeine_Intake:(2-inf)'] = dataFrame['Caffeine_Intake'] == '(2-inf)'
+
+dataFrame['Physical_Activity:[0-30]'] = dataFrame['Physical_Activity'] == '[0-30]'
+dataFrame['Physical_Activity:(30-60]'] = dataFrame['Physical_Activity'] == '(30-60]'
+dataFrame['Physical_Activity:(60-90]'] = dataFrame['Physical_Activity'] == '(60-90]'
+dataFrame['Physical_Activity:(90-inf)'] = dataFrame['Physical_Activity'] == '(90-inf)'
+
+dataFrame=dataFrame.drop(columns=['Age',
+                                    'Sleep_Duration',
+                                    'Study_Hours',
+                                    'Screen_Time',
+                                    'Caffeine_Intake',
+                                    'Physical_Activity',
+                                    'Sleep_Quality',
+                                ])
 
 dataFrame.to_csv('DatasetAssociation.csv',index=False)
