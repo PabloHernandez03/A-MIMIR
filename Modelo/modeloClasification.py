@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix
-
+from sklearn.metrics import accuracy_score
 import numpy as np
 dataFrame = pd.read_csv('./DatasetClasification.csv')
 
@@ -12,6 +12,8 @@ kf = KFold(n_splits=6)
 kf.get_n_splits(dataFrame)
 matrizLRArray=[]
 matrizGNBArray=[]
+exactitudGNB=[]
+exactitudLRA=[]
 for i, (train_index, test_index) in enumerate(kf.split(dataFrame)):
     X_train=dataFrame.iloc[train_index].drop(columns=['Sleep_Quality'])
     y_train=dataFrame.iloc[train_index]['Sleep_Quality']
@@ -25,10 +27,20 @@ for i, (train_index, test_index) in enumerate(kf.split(dataFrame)):
     matrizGNB=confusion_matrix(y_test, resultGNB, labels=["Bajo", "Regular", "Bueno"])
     matrizLRArray.append(matrizLogReg)
     matrizGNBArray.append(matrizGNB)
+    precision=(accuracy_score(y_test,resultGNB))
+    exactitudGNB.append(precision)
+    precision=(accuracy_score(y_test,resultLog))
+    exactitudLRA.append(precision)
     
 print("Matriz de confusion promedio de logistic Regression")
 promedio = np.mean(matrizLRArray,axis=0)
 print(promedio)
+print("Promedio de exactitud de logistic Regression")
+promedio = np.mean(exactitudLRA)
+print(promedio*100)
 print("Matriz de confusion promedio de naive bayes")
 promedio = np.mean(matrizGNBArray,axis=0)
 print(promedio)
+print("Promedio de exactitud de naive bayes")
+promedio = np.mean(exactitudGNB)
+print(promedio*100)
