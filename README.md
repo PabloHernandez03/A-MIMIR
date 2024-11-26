@@ -36,3 +36,11 @@ En esta fase, se definen los objetivos del proyecto, los problemas que se preten
 En esta fase, se definen cuales son nuestros datos iniciales, recolección y descripción de los mismo, además de aplicar estadística para analizarlos.
 
 - Documento de la Fase: [Entendimiento de los Datos](https://docs.google.com/document/d/1vBOmM5oTPuHS6mkcw5EMS5Nu7nz7g2xk0-lUh6wZjlQ/edit?tab=t.0)
+
+  ---
+
+### Proyecto final
+Documento final, con las partes de Entendimeinto del negocio hasta Modelado, que componen el CRISP-DM
+
+- Documento final: [Documento final](https://docs.google.com/document/d/1vBOmM5oTPuHS6mkcw5EMS5Nu7nz7g2xk0-lUh6wZjlQ/edit?tab=t.0)
+
